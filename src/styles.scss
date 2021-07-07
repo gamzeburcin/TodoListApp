@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body { 
+    height: 100%; 
+    background-color: papayawhip;
+    padding: 50px 0;
+}
+body { 
+    margin: 0; font-family: 
+    Roboto, "Helvetica Neue", sans-serif; 
+}
+.page{
+    &.home {
+        .page-title{
+            .svg{
+                width: 60px;
+                height: 60px;
+                margin-right: 15px;
+            }
+            span{
+
+            }
+        }
+        .example-form{
+            .example-full-width{
+                width: 85%;
+                margin-right: 5px;
+            }
+        }
+    }
+}
