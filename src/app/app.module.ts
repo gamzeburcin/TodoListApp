@@ -9,9 +9,9 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
-import {MatInputModule} from '@angular/material/input';
-import {MatCardModule} from '@angular/material/card';
-import {DragDropModule} from '@angular/cdk/drag-drop';
+import { MatInputModule } from '@angular/material/input';
+import { MatCardModule } from '@angular/material/card';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -36,9 +36,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule
   ],
-  providers: [
-    { provide: 'apiUrl', useValue: 'https://api.limantech.com/todo' }
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
